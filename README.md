@@ -1,6 +1,6 @@
 # Varta
-## College Major Project
+## Doubt sharing and colaborative discussion platform
 
-### Doubt sharing and colaborative discussion platform
+### College Major Project
 
 [Click Here to Experience](https://varta.onrender.com)
