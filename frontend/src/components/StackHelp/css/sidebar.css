@@ -1,0 +1,103 @@
+/* sidebar style sheet */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    height: 100%;
+    width: 240px;
+    background-color: #333;
+    border-right:  1px solid #ddd;
+    color: #fff;
+  }
+  .sidebar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #222;
+  }
+
+  
+  
+  .sidebar-container {
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .sidebar-option {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  .sidebar-option > p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .link {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link-tags {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .link-tags:hover {
+    background-color: #555;
+  }
+  
+  .link-tags > .MuiSvgIcon-root {
+    font-size: 18px;
+    margin-right: 10px;
+    color: rgba(245, 162, 9);
+  }
+  
+  .tags {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .tags > p {
+    margin: 5px 0;
+  }
+  
+  .tags > p:hover {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .sidebar.open {
+      transform: translateX(0);
+    }
+  }
+  

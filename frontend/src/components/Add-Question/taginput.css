@@ -1,0 +1,38 @@
+/* Styles for the TagsInput component */
+
+.tag-cls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1e1e1e;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.rti--input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: transparent;
+    caret-color: white;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.rti--tag {
+    background-color: #007ccf;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+
+
+.rti--tag > button{
+    color: #1e1e1e;
+}

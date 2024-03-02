@@ -1,0 +1,86 @@
+/* ReactQuillDarkTheme.css */
+.ql-container.ql-snow {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .ql-toolbar.ql-snow {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .ql-snow .ql-stroke {
+    stroke: #fff;
+  }
+  
+  .ql-snow .ql-fill {
+    fill: #fff;
+  }
+  
+  .ql-snow .ql-picker-label {
+    color: #fff;
+  }
+  
+  .ql-snow .ql-picker-options {
+    background-color: #333;
+  }
+  
+  .ql-snow .ql-picker-item {
+    color: #fff;
+  }
+  
+  .ql-snow .ql-picker-item:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .ql-snow .ql-picker-item.ql-selected {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .ql-snow .ql-color-picker .ql-picker-item {
+    background-color: #fff;
+  }
+  
+  .ql-snow .ql-color-picker .ql-picker-item.ql-selected {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .ql-snow .ql-color-picker .ql-picker-item:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .ql-snow .ql-color-picker .ql-picker-item.ql-active {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .ql-snow .ql-tooltip {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .ql-snow .ql-tooltip::before {
+    border-bottom-color: #333;
+  }
+  
+  .ql-snow .ql-tooltip a {
+    color: #fff;
+  }
+  
+  .ql-snow .ql-tooltip a:hover {
+    color: #000;
+  }
+  
+  .ql-snow .ql-tooltip.ql-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .ql-snow .ql-editor {
+    color: #fff;
+  }
+  
